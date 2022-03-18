@@ -1,74 +1,72 @@
 .intro {
-    background-image: url("images/headbackgrd.svg");
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  background-image: url("images/headbackgrd.svg");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 /* hover: opacity*/
 .iconesocial:hover {
-    opacity: 0.23;
+  opacity: 0.23;   
 }
 
 header {
-    display: flex;
-    flex-direction: row;
-    align-items: stretch;
-    
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;      
 }
 
 .text {
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 20px;  
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;  
 }
 
 #psocial {
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    color: #7F8CFF;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7F8CFF;
 }
 
 .mylogo {
-    color: #6070FF;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 20px;     
+  color: #6070FF;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;     
 }
 
 #intro {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 
 }
 #about {
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
 }
 
 #headlines {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 114px 24px;
-
-    position: absolute;
-    width: 375px;
-    height: 604px;
-    left: calc(50% - 375px/2);
-    top: 92px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 114px 24px;
+  position: absolute;
+  width: 375px;
+  height: 604px;
+  left: calc(50% - 375px/2);
+  top: 92px;
 }
 
 #figso {
-    display: flex;
-    flex-direction: row;}
+  display: flex;
+  flex-direction: row;}
